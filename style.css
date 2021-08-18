@@ -353,6 +353,8 @@ p,blockquote, .sendmail{
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -503,6 +505,9 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     padding-left: 10px!important;
     padding-right: 10px!important;
  }
+ .bloc-lg {
+    padding: 50px 0;
+}
 
 .navbar-collapse {
     padding: 0;
