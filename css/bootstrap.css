@@ -457,6 +457,7 @@ ul {
     border: 1px solid transparent
 }
 
+
 @media (min-width:768px) {
     .navbar {
         border-radius: 4px
@@ -524,7 +525,9 @@ ul {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
+ }
 }
+
 
 @media (min-width:768px) {
     .navbar-toggle {
@@ -555,7 +558,9 @@ ul {
         padding-bottom: 15px
     }
 }
-
+.navbar-collapse.in {
+    overflow-y: auto
+}
 
 
 .btn-group-vertical>.btn-group:after,
@@ -616,4 +621,44 @@ ul {
     margin-left: auto
 }
 
+.collapse.in {
+    display: block
 }
+.navbar-collapse.in {
+    overflow-y: auto
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px
+}
+
+.collapse.in {
+    display: block
+}
+
+@media (max-width:768px) {
+
+    .carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: inline;
+    
+ }
+}
+    
