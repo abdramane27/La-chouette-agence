@@ -468,12 +468,9 @@ h1 {
 }
 
 @media (max-width: 767px) {
-.navbar.row {
-    margin-left: 0;
-    margin-right: 0;
- }
+
  p, .sendmail {
-     font-size: 15px;
+     font-size: 17px;
  }
  .title2{
      font-size: 2.2em;
@@ -538,6 +535,7 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     padding-left: 15px;
     width: 100%;
  }
+ 
 }
 
 .form-group { 
