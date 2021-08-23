@@ -470,7 +470,7 @@ h1 {
 @media (max-width: 767px) {
 
  p, .sendmail {
-     font-size: 17px;
+     font-size: 18px;
  }
  .title2{
      font-size: 2.2em;
@@ -507,6 +507,9 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
  .bloc-lg {
     padding: 50px 0;
 }
+.bloc{
+    padding: 0px 20px;
+} 
 
 .navbar-collapse {
     padding: 0;
