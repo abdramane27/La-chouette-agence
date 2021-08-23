@@ -508,9 +508,11 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     padding: 50px 0;
 }
 .bloc{
-    padding: 0px 20px;
+    padding: 0px 0px;
 } 
-
+.navbar-header{
+    padding:0px 20px;
+}
 .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
@@ -521,6 +523,10 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
     float: none!important;
+ }
+
+ .navbar-toggle{
+     margin: 10px 15px 10px 0px;
  }
 
 
@@ -535,7 +541,7 @@ h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     background: rgba(0, 0, 0, .05);
     text-align: left;
-    padding-left: 15px;
+    padding-left: 20px;
     width: 100%;
  }
  
