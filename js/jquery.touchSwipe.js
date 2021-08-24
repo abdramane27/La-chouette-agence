@@ -73,29 +73,5 @@
             excludedElements: ".noSwipe",
             preventDefaultEvents: !0
         };
-     $.fn.swipe.version = VERSION, $.fn.swipe.defaults = defaults, $.fn.swipe.phases = {
-        PHASE_START: PHASE_START,
-        PHASE_MOVE: PHASE_MOVE,
-        PHASE_END: PHASE_END,
-        PHASE_CANCEL: PHASE_CANCEL
-    }, $.fn.swipe.directions = {
-        LEFT: LEFT,
-        RIGHT: RIGHT,
-        UP: UP,
-        DOWN: DOWN,
-        IN: IN,
-        OUT: OUT
-    }, $.fn.swipe.pageScroll = {
-        NONE: NONE,
-        HORIZONTAL: HORIZONTAL,
-        VERTICAL: VERTICAL,
-        AUTO: AUTO
-    }, $.fn.swipe.fingers = {
-        ONE: 1,
-        TWO: 2,
-        THREE: 3,
-        FOUR: 4,
-        FIVE: 5,
-        ALL: ALL_FINGERS
-    }
+     
 });
