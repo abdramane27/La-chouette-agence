@@ -8,11 +8,16 @@
 	<!--balise meta robots et description-->
     <meta name="description" content="Contactez L'entreprise webdesign, la chouettte agence basé sur Lyon ">
 	<meta name="robots" content="index, follow">
-	<meta http-equiv="cache-control" content="public">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<script src="./js/jquery-2.1.0.js" ></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
+    <title>Contact</title>
 	
     
 	
@@ -71,7 +76,7 @@
 	<div class="container">
 		<div class="row2">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" >
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -88,8 +93,8 @@
 						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<select class="form-control" type="email" required id="input_504">
-							<option value="internet">Via internet</option>
+						<select class="form-control" required id="input_504" >
+							<option value="">Via internet</option>
 							<option value="amis">Par le biais d'un ami, un collégue</option>
 							<option value="reseaux">Sur les réseaux sociaux</option>
 						</select>
@@ -162,12 +167,4 @@
     
 
 </body>
-<!-- suite balises -->
-<script src="./js/jquery-2.1.0.js" ></script>
-	<script src="./js/bootstrap.js" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jqBootstrapValidation.js" defer></script>
-	<script src="./js/formHandler.js" defer></script>
-    <title>page2</title>
-
 </html>
